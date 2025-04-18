@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Dwarka Dham</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- Left Panel -->
+    <div class="login-panel"></div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+      <div class="auth-box">
+        <h1>Login</h1>
+        <p class="subtext">Welcome Back Friend!</p>
+        
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="loginEmail">Email Address</label>
+            <input type="email" id="loginEmail" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" id="loginPassword" required>
+            <a href="forgot-password.html" class="forgot-password">Forgot your password?</a>
+          </div>
+          
+          <div class="form-options">
+            <label class="remember-me">
+              <input type="checkbox" id="rememberMe"> Remember me
+            </label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">LOGIN</button>
+          
+          <div class="divider">OR</div>
+          
+          <button type="button" class="btn btn-google" id="googleLogin">
+            <i class="fab fa-google"></i> Continue with Google
+          </button>
+        </form>
+
+        <div class="auth-links">
+          Don't have an account? <a href="signup.html">Sign up</a>
+        </div>
+
+        <div class="footer-text">
+          <!-- <p>© 2023 Dwarka Dham. All rights reserved.</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+
+  <script type="module" src="./JS/auth.js"></script>
+  <script type="module" src="./JS/firebase.js"></script>
+  <script type="module" src="./JS/login.js"></script>
+</body>
+</html>

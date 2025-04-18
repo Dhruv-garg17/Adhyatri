@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up | Dwarka Dham</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <style>
+    .error-message {
+      font-size: 0.9em;
+      color: red;
+      margin-top: 4px;
+    }
+    input.valid {
+      border-color: green;
+    }
+    input.invalid {
+      border-color: red;
+    }
+  </style>
+</head>
+<body>
+  <!-- <h1 class="heading">ADHYATRI</h1> -->
+  <div class="container">
+    <div class="sinup-panel"></div>
+
+    <div class="right-panel">
+      <div class="auth-box">
+        <h1>Sign Up</h1>
+        <p class="subtext">Create an account to access exclusive content.</p>
+
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="signupName">Full Name</label>
+            <input type="text" id="signupName" required />
+          </div>
+
+          <div class="form-group">
+            <label for="signupEmail">Email Address</label>
+            <input type="email" id="signupEmail" required />
+          </div>
+
+          <div class="form-group">
+            <label for="signupPassword">Password</label>
+            <input type="password" id="signupPassword" required />
+            <span id="passwordMessage" class="error-message"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" required />
+            <span id="confirmPasswordMessage" class="error-message"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary">SIGN UP</button>
+
+          <div class="divider">OR</div>
+
+          <button type="button" class="btn btn-google" id="googleSignup">
+            <i class="fab fa-google"></i> Continue with Google
+          </button>
+        </form>
+
+        <div class="auth-links">
+          Already have an account? <a href="login.html">Login</a>
+        </div>
+
+        <div class="footer-text">
+          <!-- <p>© 2023 Dwarka Dham. All rights reserved.</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script type="module" src="JS/auth.js"></script>
+  <script type="module" src="signup.js"></script>
+</body>
+</html>
