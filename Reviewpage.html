@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Write a Review | Adhyatri</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="Reviewpage.css"/>
+  <link rel="stylesheet" href="Homepage.css"/>
+  <style>
+  #destination-list {
+    position: absolute;
+    background: white;
+    width: calc(100% - 2px);
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 0 0 4px 4px;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: -1px;
+  }
+
+  #destination-list li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+  }
+
+  #destination-list li:last-child {
+    border-bottom: none;
+  }
+
+  #destination-list li:hover {
+    background-color: #f5f5f5;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #destination-preview {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+
+  #destination-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+
+  .destination-info {
+    margin-top: 10px;
+  }
+
+  .current-rating {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+
+  .star-rating {
+    color: #ffc107;
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+
+  .review-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+
+  .review-meta {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+
+  .review-meta span {
+    margin-right: 10px;
+  }
+</style>
+
+  <script type="module" src="JS/navbar.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="Homepage.html" class="logo">
+          <i class="fas fa-map-marked-alt"></i>
+          Adhyatri
+        </a>
+        <ul class="nav-links">
+          <li><a href="Homepage.html">Home</a></li>
+          <!-- <li><a href="recommendation.html">Recommendations</a></li> -->
+          <li><a href="Reviewpage.html" class="active">Review</a></li>
+          <li><a href="Plantrip.html">Travel Plan</a></li>
+          <li><a href="Comparision.html">Compare</a></li>
+          <li><a href="aboutus.html">About</a></li>
+        </ul>
+        <div class="user-actions" id="user-actions">
+          <!-- Login / Signup / Profile handled by navbar.js -->
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <section class="review-page">
+      <h1>Share Your Experience</h1>
+      <p>Help other travelers by sharing your honest review</p>
+
+      <div class="review-container">
+        <div class="destination-selector">
+          <label for="destination-select">Select Destination:</label>
+          <input type="text" id="destination-select" placeholder="Search Destination..." autocomplete="off" />
+          <ul id="destination-list" class="hidden"></ul>
+
+          <div id="destination-preview" class="hidden">
+            <img id="destination-image" src="" alt="Destination" />
+            <div class="destination-info">
+              <h3 id="destination-name"></h3>
+              <div class="current-rating">
+                <span>Current Rating: </span>
+                <span id="average-rating"></span>
+                <span id="rating-count"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-form">
+          <h2>Your Review</h2>
+          <div class="rating-input">
+            <label>Your Rating:</label>
+            <div class="star-rating">
+              <i class="far fa-star" data-rating="1"></i>
+              <i class="far fa-star" data-rating="2"></i>
+              <i class="far fa-star" data-rating="3"></i>
+              <i class="far fa-star" data-rating="4"></i>
+              <i class="far fa-star" data-rating="5"></i>
+              <input type="hidden" id="user-rating" value="0">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="review-title">Review Title:</label>
+            <input type="text" id="review-title" placeholder="Summarize your experience" />
+          </div>
+
+          <div class="form-group">
+            <label for="review-text">Your Review:</label>
+            <textarea id="review-text" rows="5" placeholder="Share details of your experience..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Trip Details:</label>
+            <div class="trip-details">
+              <div>
+                <label for="trip-date">When did you go?</label>
+                <input type="month" id="trip-date" />
+              </div>
+              <div>
+                <label for="trip-type">Trip Type:</label>
+                <select id="trip-type">
+                  <option value="solo">Solo</option>
+                  <option value="couple">Couple</option>
+                  <option value="family">Family</option>
+                  <option value="friends">Friends</option>
+                  <option value="business">Business</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <button id="submit-review" class="btn">Submit Review</button>
+        </div>
+      </div>
+
+      <div class="recent-reviews">
+        <h2>Recent Reviews</h2>
+        <div id="reviews-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Adhyatri</h3>
+                <p>Your personalized destination recommendation platform helping you discover the perfect places to visit based on your unique preferences.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Comparision.html">Destinations</a></li>
+                    <li><a href="#">Recommendations</a></li>
+                    <li><a href="Reviewpage.html">Review</a></li>
+                    <li><a href="Plantrip.html">Travel Plan</a></li>
+                    <li><a href="#">About Us</a></li>
+                    
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Newsletter</h3>
+                <p>Subscribe to get travel inspiration and exclusive deals in your inbox.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button class="btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Adhyatri. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+  <!-- Firebase & Custom Scripts -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+  <script src="Reviewpage.js"></script>
+  <script type="module">
+    import { auth } from './JS/firebase.js';
+    import { initAuthGuard } from './JS/auth.js';
+    import { initializeNavbar } from './JS/navbar.js';
+    
+    // Initialize auth guard for protected pages
+    document.addEventListener('DOMContentLoaded', () => {
+        initAuthGuard();
+        console.log("initAuthGuard()")
+        initializeNavbar();
+        console.log("initializeNavbar()")
+    });
+</script>
+</body>
+</html>
