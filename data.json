@@ -1,0 +1,1159 @@
+[
+    {
+      "destinationId": "amsterdam-netherlands",
+      "name": "Amsterdam, Netherlands",
+      "description": "Canalside capital with historic architecture, world-class museums, and vibrant nightlife.",
+      "location": {
+        "latitude": 52.3676,
+        "longitude": 4.9041,
+        "mapUrl": "https://maps.google.com/?q=52.3676,4.9041"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4",
+        "https://images.unsplash.com/photo-1459679749680-18eb1eb37418"
+      ],
+      "travelStyle": "friends",
+      "budget": "mid-range",
+      "interests": ["culture", "history", "nightlife"],
+      "activities": ["canal cruise", "Van Gogh Museum", "Anne Frank House"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Rent bikes to explore like locals"
+    },
+    {
+      "destinationId": "santorini-greece",
+      "name": "Santorini, Greece",
+      "description": "Volcanic island with whitewashed villages, blue domes, and stunning sunsets over the caldera.",
+      "location": {
+        "latitude": 36.3932,
+        "longitude": 25.4615,
+        "mapUrl": "https://maps.google.com/?q=36.3932,25.4615"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1531707379617-4834865b8a88",
+        "https://images.unsplash.com/photo-1566454410290-1e0dce37c32e"
+      ],
+      "travelStyle": "couple",
+      "budget": "luxury",
+      "interests": ["romance", "beach", "photography"],
+      "activities": ["wine tasting", "sunset viewing", "hot springs"],
+      "climate": "summer",
+      "duration": "week",
+      "specialRequests": "Stay in Oia for iconic cliffside views"
+    },
+    {
+      "destinationId": "interlaken-switzerland",
+      "name": "Interlaken, Switzerland",
+      "description": "Alpine paradise between crystal lakes, offering adventure sports and mountain vistas.",
+      "location": {
+        "latitude": 46.6863,
+        "longitude": 7.8632,
+        "mapUrl": "https://maps.google.com/?q=46.6863,7.8632"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1566837945286-1b3a0e1b8a9b",
+        "https://images.unsplash.com/photo-1566837945395-8a1e5c9f0c1f"
+      ],
+      "travelStyle": "friends",
+      "budget": "premium",
+      "interests": ["adventure", "nature"],
+      "activities": ["paragliding", "Jungfraujoch railway", "hiking"],
+      "climate": "summer",
+      "duration": "weekend",
+      "specialRequests": "Try Swiss chocolate fondue"
+    },
+    {
+      "destinationId": "dubrovnik-croatia",
+      "name": "Dubrovnik, Croatia",
+      "description": "Walled medieval city on the Adriatic coast, known as 'Pearl of the Adriatic'.",
+      "location": {
+        "latitude": 42.6507,
+        "longitude": 18.0944,
+        "mapUrl": "https://maps.google.com/?q=42.6507,18.0944"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1533929736458-ca588d08c8be",
+        "https://images.unsplash.com/photo-1559825481-12a05cc00344"
+      ],
+      "travelStyle": "family",
+      "budget": "mid-range",
+      "interests": ["history", "beach"],
+      "activities": ["city walls walk", "Game of Thrones tour", "Lokrum Island"],
+      "climate": "summer",
+      "duration": "week",
+      "specialRequests": "Walk the walls early to avoid crowds"
+    },
+    {
+      "destinationId": "cinque-terre-italy",
+      "name": "Cinque Terre, Italy",
+      "description": "Colorful fishing villages clinging to dramatic cliffs along the Italian Riviera.",
+      "location": {
+        "latitude": 44.1466,
+        "longitude": 9.6549,
+        "mapUrl": "https://maps.google.com/?q=44.1466,9.6549"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1516738901171-8eb4fcce6d7a",
+        "https://images.unsplash.com/photo-1507438222021-5ff423d0be72"
+      ],
+      "travelStyle": "couple",
+      "budget": "mid-range",
+      "interests": ["romance", "hiking", "food"],
+      "activities": ["village hopping", "coastal hiking", "wine tasting"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Try pesto pasta - invented in this region"
+    },
+    {
+      "destinationId": "hallstatt-austria",
+      "name": "Hallstatt, Austria",
+      "description": "Fairytale lakeside village with alpine charm and prehistoric salt mines.",
+      "location": {
+        "latitude": 47.5622,
+        "longitude": 13.6493,
+        "mapUrl": "https://maps.google.com/?q=47.5622,13.6493"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1516550893923-42d28e5677af",
+        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3d"
+      ],
+      "travelStyle": "family",
+      "budget": "mid-range",
+      "interests": ["photography", "history"],
+      "activities": ["salt mine tour", "bone chapel visit", "boat ride"],
+      "climate": "winter",
+      "duration": "weekend",
+      "specialRequests": "Visit the 'World's First Pipeline' salt mine exhibit"
+    },
+    {
+      "destinationId": "bruges-belgium",
+      "name": "Bruges, Belgium",
+      "description": "Medieval fairy-tale town with cobbled streets, canals, and chocolate shops.",
+      "location": {
+        "latitude": 51.2093,
+        "longitude": 3.2247,
+        "mapUrl": "https://maps.google.com/?q=51.2093,3.2247"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1519671482749-fd09be917c85",
+        "https://images.unsplash.com/photo-1591195853828-11bb59d30c3b"
+      ],
+      "travelStyle": "couple",
+      "budget": "economy",
+      "interests": ["history", "food"],
+      "activities": ["canal tour", "chocolate tasting", "Markt square"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Try authentic Belgian waffles from street vendors"
+    },
+    {
+      "destinationId": "cappadocia-turkey",
+      "name": "Cappadocia, Turkey",
+      "description": "Surreal landscape of fairy chimneys and cave dwellings, famous for hot air balloons.",
+      "location": {
+        "latitude": 38.6432,
+        "longitude": 34.8288,
+        "mapUrl": "https://maps.google.com/?q=38.6432,34.8288"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1519817650390-64a93db51149",
+        "https://images.unsplash.com/photo-1589807511229-e5925b5c0d78"
+      ],
+      "travelStyle": "friends",
+      "budget": "mid-range",
+      "interests": ["adventure", "photography"],
+      "activities": ["hot air balloon", "cave hotel stay", "underground cities"],
+      "climate": "spring",
+      "duration": "week",
+      "specialRequests": "Book balloon flights at least 3 months in advance"
+    },
+    {
+      "destinationId": "plitvice-croatia",
+      "name": "Plitvice Lakes, Croatia",
+      "description": "UNESCO site with 16 terraced lakes joined by waterfalls in lush forest.",
+      "location": {
+        "latitude": 44.8654,
+        "longitude": 15.5820,
+        "mapUrl": "https://maps.google.com/?q=44.8654,15.5820"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1559128010-7a00a6d0c8b0",
+        "https://images.unsplash.com/photo-1559128010-7a00a6d0c8b1"
+      ],
+      "travelStyle": "family",
+      "budget": "economy",
+      "interests": ["nature", "hiking"],
+      "activities": ["boardwalk trails", "waterfall viewing", "wildlife spotting"],
+      "climate": "summer",
+      "duration": "weekend",
+      "specialRequests": "Wear waterproof shoes for the trails"
+    },
+    {
+      "destinationId": "reykjavik-iceland",
+      "name": "Reykjavik, Iceland",
+      "description": "Northernmost capital with geothermal pools, Viking history, and aurora viewing.",
+      "location": {
+        "latitude": 64.1466,
+        "longitude": -21.9426,
+        "mapUrl": "https://maps.google.com/?q=64.1466,-21.9426"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1519602035691-16ac091344ef",
+        "https://images.unsplash.com/photo-1498673394965-85cb14905c89"
+      ],
+      "travelStyle": "solo",
+      "budget": "premium",
+      "interests": ["nature", "adventure"],
+      "activities": ["Blue Lagoon", "Golden Circle tour", "Northern Lights"],
+      "climate": "winter",
+      "duration": "week",
+      "specialRequests": "Visit between October-March for best aurora chances"
+    },
+    {
+      "destinationId": "porto-portugal",
+      "name": "Porto, Portugal",
+      "description": "Riverside city famous for port wine production and colorful Ribeira district.",
+      "location": {
+        "latitude": 41.1579,
+        "longitude": -8.6291,
+        "mapUrl": "https://maps.google.com/?q=41.1579,-8.6291"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1555881400-74c8ee8a8a8a",
+        "https://images.unsplash.com/photo-1555881400-74c8ee8a8a8b"
+      ],
+      "travelStyle": "friends",
+      "budget": "economy",
+      "interests": ["food", "history"],
+      "activities": ["wine cellar tours", "Dom Luís Bridge", "tile churches"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Try francesinha - Porto's signature sandwich"
+    },
+    {
+      "destinationId": "matterhorn-switzerland",
+      "name": "Matterhorn, Switzerland",
+      "description": "Iconic pyramid-shaped mountain straddling the Swiss-Italian border.",
+      "location": {
+        "latitude": 45.9764,
+        "longitude": 7.6586,
+        "mapUrl": "https://maps.google.com/?q=45.9764,7.6586"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1515825838458-f2a94b20105a",
+        "https://images.unsplash.com/photo-1515825838458-f2a94b20105b"
+      ],
+      "travelStyle": "friends",
+      "budget": "premium",
+      "interests": ["adventure", "photography"],
+      "activities": ["skiing", "Gornergrat railway", "glacier palace"],
+      "climate": "winter",
+      "duration": "week",
+      "specialRequests": "Stay in car-free Zermatt village"
+    },
+    {
+      "destinationId": "santorini-greece",
+      "name": "Santorini, Greece",
+      "description": "Volcanic island with whitewashed villages, blue domes, and stunning sunsets over the caldera.",
+      "location": {
+        "latitude": 36.3932,
+        "longitude": 25.4615,
+        "mapUrl": "https://maps.google.com/?q=36.3932,25.4615"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1531707379617-4834865b8a88",
+        "https://images.unsplash.com/photo-1566454410290-1e0dce37c32e"
+      ],
+      "travelStyle": "couple",
+      "budget": "luxury",
+      "interests": ["romance", "beach", "photography"],
+      "activities": ["wine tasting", "sunset viewing", "hot springs"],
+      "climate": "summer",
+      "duration": "week",
+      "specialRequests": "Stay in Oia for iconic cliffside views"
+    },
+    {
+      "destinationId": "interlaken-switzerland",
+      "name": "Interlaken, Switzerland",
+      "description": "Alpine paradise between crystal lakes, offering adventure sports and mountain vistas.",
+      "location": {
+        "latitude": 46.6863,
+        "longitude": 7.8632,
+        "mapUrl": "https://maps.google.com/?q=46.6863,7.8632"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1566837945286-1b3a0e1b8a9b",
+        "https://images.unsplash.com/photo-1566837945395-8a1e5c9f0c1f"
+      ],
+      "travelStyle": "friends",
+      "budget": "premium",
+      "interests": ["adventure", "nature"],
+      "activities": ["paragliding", "Jungfraujoch railway", "hiking"],
+      "climate": "summer",
+      "duration": "weekend",
+      "specialRequests": "Try Swiss chocolate fondue"
+    },
+    {
+      "destinationId": "dubrovnik-croatia",
+      "name": "Dubrovnik, Croatia",
+      "description": "Walled medieval city on the Adriatic coast, known as 'Pearl of the Adriatic'.",
+      "location": {
+        "latitude": 42.6507,
+        "longitude": 18.0944,
+        "mapUrl": "https://maps.google.com/?q=42.6507,18.0944"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1533929736458-ca588d08c8be",
+        "https://images.unsplash.com/photo-1559825481-12a05cc00344"
+      ],
+      "travelStyle": "family",
+      "budget": "mid-range",
+      "interests": ["history", "beach"],
+      "activities": ["city walls walk", "Game of Thrones tour", "Lokrum Island"],
+      "climate": "summer",
+      "duration": "week",
+      "specialRequests": "Walk the walls early to avoid crowds"
+    },
+    {
+      "destinationId": "cinque-terre-italy",
+      "name": "Cinque Terre, Italy",
+      "description": "Colorful fishing villages clinging to dramatic cliffs along the Italian Riviera.",
+      "location": {
+        "latitude": 44.1466,
+        "longitude": 9.6549,
+        "mapUrl": "https://maps.google.com/?q=44.1466,9.6549"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1516738901171-8eb4fcce6d7a",
+        "https://images.unsplash.com/photo-1507438222021-5ff423d0be72"
+      ],
+      "travelStyle": "couple",
+      "budget": "mid-range",
+      "interests": ["romance", "hiking", "food"],
+      "activities": ["village hopping", "coastal hiking", "wine tasting"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Try pesto pasta - invented in this region"
+    },
+    {
+      "destinationId": "hallstatt-austria",
+      "name": "Hallstatt, Austria",
+      "description": "Fairytale lakeside village with alpine charm and prehistoric salt mines.",
+      "location": {
+        "latitude": 47.5622,
+        "longitude": 13.6493,
+        "mapUrl": "https://maps.google.com/?q=47.5622,13.6493"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1516550893923-42d28e5677af",
+        "https://images.unsplash.com/photo-1528728329032-2972f65dfb3d"
+      ],
+      "travelStyle": "family",
+      "budget": "mid-range",
+      "interests": ["photography", "history"],
+      "activities": ["salt mine tour", "bone chapel visit", "boat ride"],
+      "climate": "winter",
+      "duration": "weekend",
+      "specialRequests": "Visit the 'World's First Pipeline' salt mine exhibit"
+    },
+    {
+      "destinationId": "bruges-belgium",
+      "name": "Bruges, Belgium",
+      "description": "Medieval fairy-tale town with cobbled streets, canals, and chocolate shops.",
+      "location": {
+        "latitude": 51.2093,
+        "longitude": 3.2247,
+        "mapUrl": "https://maps.google.com/?q=51.2093,3.2247"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1519671482749-fd09be917c85",
+        "https://images.unsplash.com/photo-1591195853828-11bb59d30c3b"
+      ],
+      "travelStyle": "couple",
+      "budget": "economy",
+      "interests": ["history", "food"],
+      "activities": ["canal tour", "chocolate tasting", "Markt square"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Try authentic Belgian waffles from street vendors"
+    },
+    {
+      "destinationId": "cappadocia-turkey",
+      "name": "Cappadocia, Turkey",
+      "description": "Surreal landscape of fairy chimneys and cave dwellings, famous for hot air balloons.",
+      "location": {
+        "latitude": 38.6432,
+        "longitude": 34.8288,
+        "mapUrl": "https://maps.google.com/?q=38.6432,34.8288"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1519817650390-64a93db51149",
+        "https://images.unsplash.com/photo-1589807511229-e5925b5c0d78"
+      ],
+      "travelStyle": "friends",
+      "budget": "mid-range",
+      "interests": ["adventure", "photography"],
+      "activities": ["hot air balloon", "cave hotel stay", "underground cities"],
+      "climate": "spring",
+      "duration": "week",
+      "specialRequests": "Book balloon flights at least 3 months in advance"
+    },
+    {
+      "destinationId": "plitvice-croatia",
+      "name": "Plitvice Lakes, Croatia",
+      "description": "UNESCO site with 16 terraced lakes joined by waterfalls in lush forest.",
+      "location": {
+        "latitude": 44.8654,
+        "longitude": 15.5820,
+        "mapUrl": "https://maps.google.com/?q=44.8654,15.5820"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1559128010-7a00a6d0c8b0",
+        "https://images.unsplash.com/photo-1559128010-7a00a6d0c8b1"
+      ],
+      "travelStyle": "family",
+      "budget": "economy",
+      "interests": ["nature", "hiking"],
+      "activities": ["boardwalk trails", "waterfall viewing", "wildlife spotting"],
+      "climate": "summer",
+      "duration": "weekend",
+      "specialRequests": "Wear waterproof shoes for the trails"
+    },
+    {
+      "destinationId": "reykjavik-iceland",
+      "name": "Reykjavik, Iceland",
+      "description": "Northernmost capital with geothermal pools, Viking history, and aurora viewing.",
+      "location": {
+        "latitude": 64.1466,
+        "longitude": -21.9426,
+        "mapUrl": "https://maps.google.com/?q=64.1466,-21.9426"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1519602035691-16ac091344ef",
+        "https://images.unsplash.com/photo-1498673394965-85cb14905c89"
+      ],
+      "travelStyle": "solo",
+      "budget": "premium",
+      "interests": ["nature", "adventure"],
+      "activities": ["Blue Lagoon", "Golden Circle tour", "Northern Lights"],
+      "climate": "winter",
+      "duration": "week",
+      "specialRequests": "Visit between October-March for best aurora chances"
+    },
+    {
+      "destinationId": "porto-portugal",
+      "name": "Porto, Portugal",
+      "description": "Riverside city famous for port wine production and colorful Ribeira district.",
+      "location": {
+        "latitude": 41.1579,
+        "longitude": -8.6291,
+        "mapUrl": "https://maps.google.com/?q=41.1579,-8.6291"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1555881400-74c8ee8a8a8a",
+        "https://images.unsplash.com/photo-1555881400-74c8ee8a8a8b"
+      ],
+      "travelStyle": "friends",
+      "budget": "economy",
+      "interests": ["food", "history"],
+      "activities": ["wine cellar tours", "Dom Luís Bridge", "tile churches"],
+      "climate": "spring",
+      "duration": "weekend",
+      "specialRequests": "Try francesinha - Porto's signature sandwich"
+    },
+    {
+      "destinationId": "matterhorn-switzerland",
+      "name": "Matterhorn, Switzerland",
+      "description": "Iconic pyramid-shaped mountain straddling the Swiss-Italian border.",
+      "location": {
+        "latitude": 45.9764,
+        "longitude": 7.6586,
+        "mapUrl": "https://maps.google.com/?q=45.9764,7.6586"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1515825838458-f2a94b20105a",
+        "https://images.unsplash.com/photo-1515825838458-f2a94b20105b"
+      ],
+      "travelStyle": "friends",
+      "budget": "premium",
+      "interests": ["adventure", "photography"],
+      "activities": ["skiing", "Gornergrat railway", "glacier palace"],
+      "climate": "winter",
+      "duration": "week",
+      "specialRequests": "Stay in car-free Zermatt village"
+    },
+    {
+        "destinationId": "rovaniemi-finland",
+        "name": "Rovaniemi, Finland",
+        "description": "Official hometown of Santa Claus and prime location for Northern Lights viewing in Arctic Circle.",
+        "location": {
+          "latitude": 66.5039,
+          "longitude": 25.7294,
+          "mapUrl": "https://maps.google.com/?q=66.5039,25.7294"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1579033462043-0f11a7862f7d",
+          "https://images.unsplash.com/photo-1517121556763-4b9f5b5f5b5b"
+        ],
+        "travelStyle": "family",
+        "budget": "premium",
+        "interests": ["winter", "adventure", "nature"],
+        "activities": ["Santa Claus Village", "husky safaris", "aurora hunting"],
+        "climate": "winter",
+        "duration": "week",
+        "specialRequests": "Try glass igloo accommodation for aurora views from bed"
+      },
+      {
+        "destinationId": "transylvania-romania",
+        "name": "Transylvania, Romania",
+        "description": "Mystical region of medieval towns, fortified churches, and Dracula legends in the Carpathian Mountains.",
+        "location": {
+          "latitude": 46.7772,
+          "longitude": 23.5994,
+          "mapUrl": "https://maps.google.com/?q=46.7772,23.5994"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1564501049415-61cbac31a53b",
+          "https://images.unsplash.com/photo-1564501049415-61cbac31a53c"
+        ],
+        "travelStyle": "friends",
+        "budget": "economy",
+        "interests": ["history", "adventure"],
+        "activities": ["Bran Castle", "Sighișoara citadel", "Transfăgărășan road"],
+        "climate": "autumn",
+        "duration": "week",
+        "specialRequests": "Visit during Halloween for special Dracula events"
+      },
+      {
+        "destinationId": "faroe-islands",
+        "name": "Faroe Islands",
+        "description": "Dramatic volcanic archipelago with sea cliffs, waterfalls, and puffin colonies between Norway and Iceland.",
+        "location": {
+          "latitude": 62.0446,
+          "longitude": -6.9118,
+          "mapUrl": "https://maps.google.com/?q=62.0446,-6.9118"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1524851021216-553c1b5dac84",
+          "https://images.unsplash.com/photo-1524851021216-553c1b5dac85"
+        ],
+        "travelStyle": "solo",
+        "budget": "mid-range",
+        "interests": ["nature", "photography"],
+        "activities": ["hiking to Drangarnir", "boat tours", "bird watching"],
+        "climate": "summer",
+        "duration": "week",
+        "specialRequests": "Try fermented wind-dried lamb - a local delicacy"
+      },
+      {
+        "destinationId": "kotor-montenegro",
+        "name": "Kotor, Montenegro",
+        "description": "Walled medieval city nestled in Europe's southernmost fjord with Venetian architecture.",
+        "location": {
+          "latitude": 42.4247,
+          "longitude": 18.7712,
+          "mapUrl": "https://maps.google.com/?q=42.4247,18.7712"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1564501049415-61cbac31a53d",
+          "https://images.unsplash.com/photo-1564501049415-61cbac31a53e"
+        ],
+        "travelStyle": "couple",
+        "budget": "mid-range",
+        "interests": ["history", "nature"],
+        "activities": ["fortress climb", "Bay of Kotor cruise", "old town exploration"],
+        "climate": "spring",
+        "duration": "weekend",
+        "specialRequests": "Hike the Ladder of Kotor at sunrise for best views"
+      },
+      {
+        "destinationId": "salzburg-austria",
+        "name": "Salzburg, Austria",
+        "description": "Baroque city birthplace of Mozart and setting for The Sound of Music, surrounded by alpine peaks.",
+        "location": {
+          "latitude": 47.8095,
+          "longitude": 13.0550,
+          "mapUrl": "https://maps.google.com/?q=47.8095,13.0550"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1519602035691-16ac091344ef",
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f0"
+        ],
+        "travelStyle": "family",
+        "budget": "mid-range",
+        "interests": ["music", "history"],
+        "activities": ["Hohensalzburg Fortress", "Mozart's birthplace", "Sound of Music tour"],
+        "climate": "winter",
+        "duration": "weekend",
+        "specialRequests": "Try original Salzburger Nockerl dessert"
+      },
+      {
+        "destinationId": "loire-valley-france",
+        "name": "Loire Valley, France",
+        "description": "UNESCO-listed region with 300+ Renaissance châteaux along France's longest river.",
+        "location": {
+          "latitude": 47.3591,
+          "longitude": 0.5366,
+          "mapUrl": "https://maps.google.com/?q=47.3591,0.5366"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f1",
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f2"
+        ],
+        "travelStyle": "couple",
+        "budget": "luxury",
+        "interests": ["history", "romance"],
+        "activities": ["Château de Chambord", "wine tasting", "hot air balloon rides"],
+        "climate": "spring",
+        "duration": "week",
+        "specialRequests": "Rent bikes to explore the château routes"
+      },
+      {
+        "destinationId": "algarve-portugal",
+        "name": "Algarve, Portugal",
+        "description": "Sun-drenched southern coastline with golden cliffs, hidden grottoes, and world-class golf courses.",
+        "location": {
+          "latitude": 37.1028,
+          "longitude": -8.6730,
+          "mapUrl": "https://maps.google.com/?q=37.1028,-8.6730"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f3",
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f4"
+        ],
+        "travelStyle": "family",
+        "budget": "mid-range",
+        "interests": ["beach", "golf"],
+        "activities": ["Benagil Cave boat tour", "Ponta da Piedade", "seafood dining"],
+        "climate": "summer",
+        "duration": "week",
+        "specialRequests": "Visit in shoulder season (May/Sept) for fewer crowds"
+      },
+      {
+        "destinationId": "bavarian-alps-germany",
+        "name": "Bavarian Alps, Germany",
+        "description": "Majestic mountain range featuring Neuschwanstein Castle and traditional alpine villages.",
+        "location": {
+          "latitude": 47.5461,
+          "longitude": 11.1278,
+          "mapUrl": "https://maps.google.com/?q=47.5461,11.1278"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f5",
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f6"
+        ],
+        "travelStyle": "friends",
+        "budget": "mid-range",
+        "interests": ["nature", "history"],
+        "activities": ["castle visits", "hiking", "cable car rides"],
+        "climate": "summer",
+        "duration": "week",
+        "specialRequests": "Attend Oktoberfest in Munich if visiting September"
+      },
+      {
+        "destinationId": "lake-bled-slovenia",
+        "name": "Lake Bled, Slovenia",
+        "description": "Picturesque alpine lake with island church and cliffside medieval castle.",
+        "location": {
+          "latitude": 46.3691,
+          "longitude": 14.1136,
+          "mapUrl": "https://maps.google.com/?q=46.3691,14.1136"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f7",
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f8"
+        ],
+        "travelStyle": "couple",
+        "budget": "economy",
+        "interests": ["romance", "nature"],
+        "activities": ["pletna boat ride", "castle visit", "cream cake tasting"],
+        "climate": "summer",
+        "duration": "weekend",
+        "specialRequests": "Try the original Bled cream cake at Park Café"
+      },
+      {
+        "destinationId": "cotswolds-uk",
+        "name": "Cotswolds, England",
+        "description": "Quintessential English countryside with honey-colored stone villages and rolling hills.",
+        "location": {
+          "latitude": 51.8330,
+          "longitude": -1.8433,
+          "mapUrl": "https://maps.google.com/?q=51.8330,-1.8433"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1519602035691-16ac091344f9",
+          "https://images.unsplash.com/photo-1519602035691-16ac09134500"
+        ],
+        "travelStyle": "couple",
+        "budget": "luxury",
+        "interests": ["countryside", "history"],
+        "activities": ["village hopping", "afternoon tea", "hiking the Cotswold Way"],
+        "climate": "spring",
+        "duration": "week",
+        "specialRequests": "Stay in a converted barn or cottage for authentic experience"
+      },
+      {
+        "destinationId": "sibiu-romania",
+        "name": "Sibiu, Romania",
+        "description": "Former European Capital of Culture with Germanic architecture in Transylvania.",
+        "location": {
+          "latitude": 45.8035,
+          "longitude": 24.1450,
+          "mapUrl": "https://maps.google.com/?q=45.8035,24.1450"
+        },
+        "images": [
+          "https://images.unsplash.com/photo-1564501049415-61cbac31a53f",
+          "https://images.unsplash.com/photo-1564501049415-61cbac31a540"
+        ],
+        "travelStyle": "solo",
+        "budget": "economy",
+        "interests": ["culture", "history"],
+        "activities": ["Council Tower climb", "ASTRA Museum", "Christmas Market"],
+        "climate": "winter",
+        "duration": "weekend",
+        "specialRequests": "Look for the 'eyes of Sibiu' on rooftops"
+      },
+      
+        {
+          "destinationId": "uluru-northern-territory",
+          "name": "Uluru-Kata Tjuta, NT",
+          "description": "Sacred red monolith and spiritual heart of Australia in the Outback.",
+          "location": {
+            "latitude": -25.3444,
+            "longitude": 131.0369,
+            "mapUrl": "https://maps.google.com/?q=-25.3444,131.0369"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd",
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be"
+          ],
+          "travelStyle": "couple",
+          "budget": "premium",
+          "interests": ["indigenous culture", "nature"],
+          "activities": ["sunrise viewing", "base walk", "Field of Light installation"],
+          "climate": "dry",
+          "duration": "weekend",
+          "specialRequests": "Book the Sounds of Silence dinner experience"
+        },
+        {
+          "destinationId": "kangaroo-island-sa",
+          "name": "Kangaroo Island, SA",
+          "description": "Wildlife paradise with pristine beaches, sea lions and Remarkable Rocks formations.",
+          "location": {
+            "latitude": -35.8185,
+            "longitude": 137.3345,
+            "mapUrl": "https://maps.google.com/?q=-35.8185,137.3345"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754",
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8"
+          ],
+          "travelStyle": "family",
+          "budget": "mid-range",
+          "interests": ["wildlife", "beach"],
+          "activities": ["Flinders Chase NP", "Seal Bay", "honey tasting"],
+          "climate": "summer",
+          "duration": "week",
+          "specialRequests": "Try Ligurian bee honey - unique to the island"
+        },
+        {
+          "destinationId": "blue-mountains-nsw",
+          "name": "Blue Mountains, NSW",
+          "description": "Dramatic sandstone cliffs, eucalyptus forests and waterfalls near Sydney.",
+          "location": {
+            "latitude": -33.7125,
+            "longitude": 150.3118,
+            "mapUrl": "https://maps.google.com/?q=-33.7125,150.3118"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "economy",
+          "interests": ["hiking", "nature"],
+          "activities": ["Three Sisters lookout", "Scenic World rides", "Jenolan Caves"],
+          "climate": "autumn",
+          "duration": "weekend",
+          "specialRequests": "Visit in autumn for spectacular foliage"
+        },
+        {
+          "destinationId": "margaret-river-wa",
+          "name": "Margaret River, WA",
+          "description": "World-class wineries, surf breaks and ancient caves in southwest Australia.",
+          "location": {
+            "latitude": -33.9550,
+            "longitude": 115.0750,
+            "mapUrl": "https://maps.google.com/?q=-33.9550,115.0750"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8",
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754"
+          ],
+          "travelStyle": "couple",
+          "budget": "luxury",
+          "interests": ["wine", "beach"],
+          "activities": ["wine tasting", "surf lessons", "Mammoth Cave tour"],
+          "climate": "spring",
+          "duration": "week",
+          "specialRequests": "Book a private wine tour with lunch at Leeuwin Estate"
+        },
+        {
+          "destinationId": "fraser-island-qld",
+          "name": "Fraser Island, QLD",
+          "description": "World's largest sand island with rainforests, dingoes and crystal-clear lakes.",
+          "location": {
+            "latitude": -25.2522,
+            "longitude": 153.1369,
+            "mapUrl": "https://maps.google.com/?q=-25.2522,153.1369"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "mid-range",
+          "interests": ["adventure", "nature"],
+          "activities": ["4WD tours", "Lake McKenzie swim", "Maheno Shipwreck"],
+          "climate": "summer",
+          "duration": "week",
+          "specialRequests": "Must have 4WD vehicle to explore the island"
+        },
+        {
+          "destinationId": "tasman-wilderness-tas",
+          "name": "Tasman Wilderness, TAS",
+          "description": "Dramatic coastal cliffs, rare wildlife and the Southern Hemisphere's deepest cave.",
+          "location": {
+            "latitude": -43.1216,
+            "longitude": 147.9936,
+            "mapUrl": "https://maps.google.com/?q=-43.1216,147.9936"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754",
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8"
+          ],
+          "travelStyle": "solo",
+          "budget": "mid-range",
+          "interests": ["wilderness", "photography"],
+          "activities": ["Three Capes Track", "Port Arthur tour", "Tasman Arch"],
+          "climate": "summer",
+          "duration": "week",
+          "specialRequests": "Try Tasmanian devil spotting at night"
+        },
+        {
+          "destinationId": "whitsundays-qld",
+          "name": "Whitsunday Islands, QLD",
+          "description": "74 tropical islands with Whitehaven Beach's silica sand and Great Barrier Reef access.",
+          "location": {
+            "latitude": -20.2887,
+            "longitude": 148.9969,
+            "mapUrl": "https://maps.google.com/?q=-20.2887,148.9969"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "couple",
+          "budget": "luxury",
+          "interests": ["beach", "romance"],
+          "activities": ["sailing", "reef snorkeling", "seaplane tours"],
+          "climate": "tropical",
+          "duration": "week",
+          "specialRequests": "Book a romantic beach picnic on Whitehaven"
+        },
+        {
+          "destinationId": "kakadu-national-park-nt",
+          "name": "Kakadu National Park, NT",
+          "description": "Aboriginal cultural site with ancient rock art, wetlands and saltwater crocodiles.",
+          "location": {
+            "latitude": -12.8667,
+            "longitude": 132.8333,
+            "mapUrl": "https://maps.google.com/?q=-12.8667,132.8333"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8",
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754"
+          ],
+          "travelStyle": "friends",
+          "budget": "mid-range",
+          "interests": ["indigenous culture", "wildlife"],
+          "activities": ["Ubirr rock art", "Yellow Water cruise", "Jim Jim Falls"],
+          "climate": "dry",
+          "duration": "week",
+          "specialRequests": "Visit May-Oct to avoid wet season floods"
+        },
+        {
+          "destinationId": "byron-bay-nsw",
+          "name": "Byron Bay, NSW",
+          "description": "Boho-chic coastal town with legendary surf, lighthouse and alternative culture.",
+          "location": {
+            "latitude": -28.6474,
+            "longitude": 153.6020,
+            "mapUrl": "https://maps.google.com/?q=-28.6474,153.6020"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "mid-range",
+          "interests": ["beach", "wellness"],
+          "activities": ["surf lessons", "lighthouse walk", "farmers market"],
+          "climate": "summer",
+          "duration": "weekend",
+          "specialRequests": "Try a beachfront yoga class at sunrise"
+        },
+        {
+          "destinationId": "barossa-valley-sa",
+          "name": "Barossa Valley, SA",
+          "description": "Australia's premier wine region with German heritage and Shiraz vineyards.",
+          "location": {
+            "latitude": -34.5316,
+            "longitude": 138.9616,
+            "mapUrl": "https://maps.google.com/?q=-34.5316,138.9616"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754",
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8"
+          ],
+          "travelStyle": "couple",
+          "budget": "luxury",
+          "interests": ["wine", "food"],
+          "activities": ["Penfolds tastings", "hot air balloon", "German bakeries"],
+          "climate": "autumn",
+          "duration": "weekend",
+          "specialRequests": "Book the 'Make Your Own Blend' experience at Penfolds"
+        },
+        {
+          "destinationId": "kimberley-wa",
+          "name": "The Kimberley, WA",
+          "description": "Australia's last wilderness frontier with gorges, waterfalls and Aboriginal rock art.",
+          "location": {
+            "latitude": -16.2706,
+            "longitude": 125.5882,
+            "mapUrl": "https://maps.google.com/?q=-16.2706,125.5882"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "premium",
+          "interests": ["adventure", "wilderness"],
+          "activities": ["Bungle Bungles", "Horizontal Falls", "El Questro Station"],
+          "climate": "dry",
+          "duration": "two-weeks",
+          "specialRequests": "Consider a scenic flight to cover vast distances"
+        },
+        {
+          "destinationId": "lord-howe-island-nsw",
+          "name": "Lord Howe Island, NSW",
+          "description": "UNESCO-listed paradise with rare birds, coral reefs and limited tourist numbers.",
+          "location": {
+            "latitude": -31.5559,
+            "longitude": 159.0827,
+            "mapUrl": "https://maps.google.com/?q=-31.5559,159.0827"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8",
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754"
+          ],
+          "travelStyle": "couple",
+          "budget": "luxury",
+          "interests": ["nature", "romance"],
+          "activities": ["Mount Gower climb", "snorkeling", "birdwatching"],
+          "climate": "spring",
+          "duration": "week",
+          "specialRequests": "Only 400 visitors allowed at any time - book early"
+        },
+        {
+          "destinationId": "flinders-ranges-sa",
+          "name": "Flinders Ranges, SA",
+          "description": "Ancient mountain ranges with Aboriginal rock art and iconic Wilpena Pound formation.",
+          "location": {
+            "latitude": -31.4136,
+            "longitude": 138.4293,
+            "mapUrl": "https://maps.google.com/?q=-31.4136,138.4293"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "mid-range",
+          "interests": ["outback", "geology"],
+          "activities": ["Wilpena Pound hike", "Arkaba Walk", "stargazing"],
+          "climate": "autumn",
+          "duration": "week",
+          "specialRequests": "Visit Brachina Gorge for geological timeline"
+        },
+        {
+          "destinationId": "great-ocean-road-vic",
+          "name": "Great Ocean Road, VIC",
+          "description": "Spectacular coastal drive featuring the Twelve Apostles and Shipwreck Coast.",
+          "location": {
+            "latitude": -38.6806,
+            "longitude": 143.3906,
+            "mapUrl": "https://maps.google.com/?q=-38.6806,143.3906"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754",
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8"
+          ],
+          "travelStyle": "family",
+          "budget": "economy",
+          "interests": ["road trip", "nature"],
+          "activities": ["Twelve Apostles", "Loch Ard Gorge", "Otway Fly walk"],
+          "climate": "summer",
+          "duration": "weekend",
+          "specialRequests": "Stop at Apollo Bay for famous scallop pies"
+        },
+        {
+          "destinationId": "daintree-rainforest-qld",
+          "name": "Daintree Rainforest, QLD",
+          "description": "World's oldest tropical rainforest meeting the Great Barrier Reef.",
+          "location": {
+            "latitude": -16.1700,
+            "longitude": 145.4186,
+            "mapUrl": "https://maps.google.com/?q=-16.1700,145.4186"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "family",
+          "budget": "mid-range",
+          "interests": ["nature", "wildlife"],
+          "activities": ["Mossman Gorge", "jungle surfing", "night wildlife walks"],
+          "climate": "tropical",
+          "duration": "week",
+          "specialRequests": "Stay in a rainforest canopy treehouse"
+        },
+        {
+          "destinationId": "monkey-mia-wa",
+          "name": "Monkey Mia, WA",
+          "description": "Famous for wild dolphins that visit shore daily in Shark Bay World Heritage area.",
+          "location": {
+            "latitude": -25.7920,
+            "longitude": 113.7148,
+            "mapUrl": "https://maps.google.com/?q=-25.7920,113.7148"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8",
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754"
+          ],
+          "travelStyle": "family",
+          "budget": "mid-range",
+          "interests": ["wildlife", "beach"],
+          "activities": ["dolphin interaction", "shell beach", "Francois Peron NP"],
+          "climate": "spring",
+          "duration": "weekend",
+          "specialRequests": "Morning is best time for dolphin sightings"
+        },
+        {
+          "destinationId": "cradle-mountain-tas",
+          "name": "Cradle Mountain, TAS",
+          "description": "Dramatic alpine wilderness with glacial lakes and famous Overland Track.",
+          "location": {
+            "latitude": -41.6851,
+            "longitude": 145.9499,
+            "mapUrl": "https://maps.google.com/?q=-41.6851,145.9499"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "mid-range",
+          "interests": ["hiking", "wilderness"],
+          "activities": ["Dove Lake circuit", "Overland Track", "wildlife spotting"],
+          "climate": "summer",
+          "duration": "week",
+          "specialRequests": "Stay at Waldheim Cabins for authentic experience"
+        },
+        {
+          "destinationId": "phillip-island-vic",
+          "name": "Phillip Island, VIC",
+          "description": "Famous for its Penguin Parade where little penguins return ashore at dusk.",
+          "location": {
+            "latitude": -38.4833,
+            "longitude": 145.2333,
+            "mapUrl": "https://maps.google.com/?q=-38.4833,145.2333"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754",
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8"
+          ],
+          "travelStyle": "family",
+          "budget": "economy",
+          "interests": ["wildlife", "nature"],
+          "activities": ["Penguin Parade", "Koala Conservation Reserve", "Grand Prix circuit"],
+          "climate": "summer",
+          "duration": "weekend",
+          "specialRequests": "Book Penguin Parade tickets in advance"
+        },
+        {
+          "destinationId": "ningaloo-reef-wa",
+          "name": "Ningaloo Reef, WA",
+          "description": "Fringing coral reef where you can swim with whale sharks (Mar-Jul).",
+          "location": {
+            "latitude": -22.6894,
+            "longitude": 113.6591,
+            "mapUrl": "https://maps.google.com/?q=-22.6894,113.6591"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "premium",
+          "interests": ["marine life", "adventure"],
+          "activities": ["whale shark swimming", "reef snorkeling", "kayaking"],
+          "climate": "dry",
+          "duration": "week",
+          "specialRequests": "Visit between March-July for whale shark season"
+        },
+        {
+          "destinationId": "litchfield-national-park-nt",
+          "name": "Litchfield National Park, NT",
+          "description": "Spectacular waterfalls, magnetic termite mounds and natural swimming holes.",
+          "location": {
+            "latitude": -13.1167,
+            "longitude": 130.8000,
+            "mapUrl": "https://maps.google.com/?q=-13.1167,130.8000"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1605092675250-4a6dd4e5abc8",
+            "https://images.unsplash.com/photo-1589330694653-ded6df03f754"
+          ],
+          "travelStyle": "family",
+          "budget": "economy",
+          "interests": ["nature", "swimming"],
+          "activities": ["Florence Falls", "Buley Rockhole", "termite mounds"],
+          "climate": "dry",
+          "duration": "weekend",
+          "specialRequests": "Perfect day trip from Darwin"
+        },
+        {
+          "destinationId": "snowy-mountains-nsw",
+          "name": "Snowy Mountains, NSW",
+          "description": "Australia's highest mountain range offering skiing in winter and hiking in summer.",
+          "location": {
+            "latitude": -36.4000,
+            "longitude": 148.4833,
+            "mapUrl": "https://maps.google.com/?q=-36.4000,148.4833"
+          },
+          "images": [
+            "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be",
+            "https://images.unsplash.com/photo-1581539250439-c96689b516dd"
+          ],
+          "travelStyle": "friends",
+          "budget": "mid-range",
+          "interests": ["snow sports", "hiking"],
+          "activities": ["Thredbo skiing", "Mount Kosciuszko climb", "mountain biking"],
+          "climate": "winter",
+          "duration": "week",
+          "specialRequests": "Summer wildflowers are spectacular December-February"
+        }
+      
+  ]

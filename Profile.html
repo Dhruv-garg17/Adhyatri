@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Adhyatri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="Homepage.css">
+    <!--<link rel="stylesheet" href="CSS/pages.css"> -->
+    <link rel="stylesheet" href="CSS/Profile.css">
+    <!-- <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/modal.css"> -->
+</head>
+<body>
+    <!-- Header will be injected by navbar.js -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="Homepage.html" class="logo">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Adhyatri
+                </a>
+                <ul class="nav-links">
+                    <li><a href="Homepage.html">Home</a></li>
+                    <!-- <li><a href="recommendation.html">Recommendations</a></li> -->
+                    <li><a href="Reviewpage.html">Review</a></li>
+                    <li><a href="Plantrip.html">Travel Plan</a></li>
+                    <li><a href="Comparision.html">Compare</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    
+                </ul>
+                <div class="user-actions">
+                    <!-- Will be populated by navbar.js -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="profile-container">
+        <header class="profile-header">
+            <h1>Welcome, <span id="welcomeName">Loading...</span></h1>
+            <p>Your personal travel dashboard</p>
+        </header>
+
+        <div class="profile-content">
+            <div class="profile-section">
+                <h2>Profile Information</h2>
+                <div class="profile-info">
+                    <div class="info-group">
+                        <label>Name:</label>
+                        <span id="profileName">Loading...</span>
+                        <button id="editNameBtn" class="edit-btn"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <div class="info-group">
+                        <label>Email:</label>
+                        <span id="profileEmail">Loading...</span>
+                    </div>
+                    <div class="info-group">
+                        <label>Travel Style:</label>
+                        <span id="profileTravelStyle">Loading...</span>
+                        <button id="editStyleBtn" class="edit-btn"><i class="fas fa-edit"></i></button>
+                    </div>
+                    <div class="info-group">
+                        <label>Budget Range:</label>
+                        <span id="profileBudget">Loading...</span>
+                        <button id="editBudgetBtn" class="edit-btn"><i class="fas fa-edit"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-section">
+                <h2>Travel Preferences</h2>
+                <div class="preferences-container">
+                    <div class="preference-group">
+                        <h3>Interests</h3>
+                        <div id="profileInterests" class="tags-container">Loading...</div>
+                        <button id="editInterestsBtn" class="edit-btn"><i class="fas fa-edit"></i> Edit Interests</button>
+                    </div>
+                    <div class="preference-group">
+                        <h3>Preferred Activities</h3>
+                        <div id="profileActivities" class="tags-container">Loading...</div>
+                        <button id="editActivitiesBtn" class="edit-btn"><i class="fas fa-edit"></i> Edit Activities</button>
+                    </div>
+                    <div class="preference-group">
+                        <h3>Climate Preference</h3>
+                        <p id="profileClimate">Loading...</p>
+                        <button id="editClimateBtn" class="edit-btn"><i class="fas fa-edit"></i> Edit Climate</button>
+                    </div>
+                    <div class="preference-group">
+                        <h3>Trip Duration</h3>
+                        <p id="profileDuration">Loading...</p>
+                        <button id="editDurationBtn" class="edit-btn"><i class="fas fa-edit"></i> Edit Duration</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-section">
+                <h2>Recent Destinations</h2>
+                <div id="destinationHistory" class="destination-history">
+                    <p>Loading travel history...</p>
+                </div>
+            </div>
+
+            <div class="profile-section">
+                <h2>Referral Program</h2>
+                <div class="referral-container">
+                    <p>Share your unique referral link with friends and earn travel credits!</p>
+                    <div class="referral-info">
+                        <p><strong>Your Referral Code:</strong> <span id="referralCode">Loading...</span></p>
+                        <p><strong>Credits Earned:</strong> $<span id="creditsEarned">0</span></p>
+                        <button id="copyReferral" class="button primary-button">Copy Referral Link</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Adhyatri</h3>
+                    <p>Your personalized destination recommendation platform helping you discover the perfect places to visit based on your unique preferences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Comparision.html">Destinations</a></li>
+                        <li><a href="#">Recommendations</a></li>
+                        <li><a href="Reviewpage.html">Review</a></li>
+                        <li><a href="Plantrip.html">Travel Plan</a></li>
+                        <li><a href="#">About Us</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get travel inspiration and exclusive deals in your inbox.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Adhyatri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { auth } from './JS/firebase.js';
+        import { initAuthGuard } from './JS/auth.js';
+        import { initializeNavbar } from './JS/navbar.js';
+        
+        // Initialize auth guard for protected pages
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            initAuthGuard();
+            console.log("initAuthGuard()")
+            
+            initializeNavbar();
+            console.log("initializeNavbar()")
+        });
+    </script>
+
+    <script type="module" src="JS/auth.js"></script>
+    <script type="module" src="JS/Profile.js"></script>
+</body>
+</html>

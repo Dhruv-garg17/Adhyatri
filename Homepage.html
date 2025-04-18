@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adhyatri - Personalized Destination Recommendations</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="Homepage.css"/>
+  <script type="module" src="JS/navbar.js"></script>
+  <script type="module" src="Homepage.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="Homepage.html" class="logo">
+          <i class="fas fa-map-marked-alt"></i>
+          Adhyatri
+        </a>
+        <ul class="nav-links">
+          <li><a href="Homepage.html">Home</a></li>
+          <li><a href="Reviewpage.html">Review</a></li>
+          <li><a href="Plantrip.html">Travel Plan</a></li>
+          <li><a href="Comparision.html">Compare</a></li>
+          <li><a href="aboutus.html">About</a></li>
+        </ul>
+        <div class="user-actions">
+          <!-- Filled by navbar.js -->
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Discover Your Perfect Destination</h1>
+        <p>Get personalized travel recommendations based on your preferences and travel style</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preference Survey Section -->
+  <section class="survey-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Help Us Find Your Perfect Match</h2>
+        <p>Answer a few questions about your travel preferences and we'll recommend destinations tailored just for you</p>
+      </div>
+      <div class="survey-container">
+
+        <div class="survey-step">
+          <h3>What type of traveler are you?</h3>
+          <div class="options-grid">
+            <div class="option-card"><i class="fas fa-hiking"></i><p>Adventure Seeker</p></div>
+            <div class="option-card"><i class="fas fa-umbrella-beach"></i><p>Relaxation Lover</p></div>
+            <div class="option-card"><i class="fas fa-landmark"></i><p>Culture Explorer</p></div>
+            <div class="option-card"><i class="fas fa-camera"></i><p>Photography Enthusiast</p></div>
+            <div class="option-card"><i class="fas fa-utensils"></i><p>Foodie</p></div>
+          </div>
+        </div>
+
+        <div class="survey-step">
+          <h3>What's your travel budget?</h3>
+          <div class="options-grid">
+            <div class="option-card"><i class="fas fa-wallet"></i><p>Economy</p></div>
+            <div class="option-card"><i class="fas fa-coins"></i><p>Mid-range</p></div>
+            <div class="option-card"><i class="fas fa-gem"></i><p>Luxury</p></div>
+            <div class="option-card"><i class="fas fa-crown"></i><p>Premium</p></div>
+          </div>
+        </div>
+
+        <div class="survey-step">
+          <h3>Who are you traveling with?</h3>
+          <div class="options-grid">
+            <div class="option-card"><i class="fas fa-user"></i><p>Solo</p></div>
+            <div class="option-card"><i class="fas fa-heart"></i><p>Couple</p></div>
+            <div class="option-card"><i class="fas fa-users"></i><p>Friends</p></div>
+            <div class="option-card"><i class="fas fa-home"></i><p>Family</p></div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+          <a href="#" class="btn" id="getRecommendationsBtn">Get My Recommendations</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section class="recommendations-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Personalized Recommendations For You</h2>
+        <p>Based on your preferences, we think you'll love these destinations</p>
+      </div>
+
+      <div class="filter-bar">
+        <div class="filter-group">
+          <!-- <label for="sort-by">Sort by:</label>
+          <select id="sort-by">
+            <option value="recommended">Recommended</option>
+            <option value="budget">Budget</option>
+            <option value="duration">Duration</option>
+            <option value="climate">Climate</option>
+            <option value="activities">Activities</option>
+          </select> -->
+        </div>
+        <div class="filter-group">
+          <label for="filter-by">Filter by:</label>
+          <select id="filter-by">
+            <option value="all">All</option>
+            <option value="adventure">Snow Sports</option>
+            <option value="hiking">Hiking</option>
+            <option value="culture">Cultural</option>
+            <option value="food">Food</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="destination-grid">
+        <!-- Will be populated dynamically -->
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="#" class="btn">View All Recommendations</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="map-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Explore Destinations on Our Interactive Map</h2>
+        <p>Discover places geographically and find hidden gems near your preferred locations</p>
+      </div>
+      <div class="map-container">
+        <div class="map-placeholder">
+          <p>Interactive Map Will Appear Here</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trending Section -->
+  <section class="trending-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Trending Destinations This Season</h2>
+        <p>Discover what's popular right now among fellow travelers</p>
+      </div>
+      <div class="trending-slider">
+        <!-- Add trending cards here if needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Adhyatri</h3>
+          <p>Your personalized destination recommendation platform helping you discover the perfect places to visit based on your unique preferences.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Comparision.html">Destinations</a></li>
+            <li><a href="#">Recommendations</a></li>
+            <li><a href="Reviewpage.html">Review</a></li>
+            <li><a href="Plantrip.html">Travel Plan</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Support</h3>
+          <ul class="footer-links">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Newsletter</h3>
+          <p>Subscribe to get travel inspiration and exclusive deals in your inbox.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button class="btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Adhyatri. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { auth } from './JS/firebase.js';
+    import { initAuthGuard } from './JS/auth.js';
+    import { initializeNavbar } from './JS/navbar.js';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initAuthGuard();
+      initializeNavbar();
+    });
+  </script>
+
+</body>
+</html>
