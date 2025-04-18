@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then((userCredential) => {
                 const user = userCredential.user;
                 alert(`Welcome back, ${user.email}!`);
-                window.location.href = 'Homepage.html'; // Change to your app's dashboard URL
+                window.location.href = 'index.html'; // Change to your app's dashboard URL
             })
             .catch((error) => {
                 console.error("Login error:", error);
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then((result) => {
                 const user = result.user;
                 alert(`Logged in Successfully as ${user.displayName}`);
-                window.location.href = 'Homepage.html'; // Change to your app's dashboard URL
+                window.location.href = 'index.html'; // Change to your app's dashboard URL
             })
             .catch((error) => {
                 console.error("Google login error:", error);
