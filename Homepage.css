@@ -656,4 +656,173 @@ footer {
         width: 100%;
     }
 }
+/* Layout styling */
+/* Styling for the recommendation cards */
+.destination-card.recommended-card {
+    flex: 1 1 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.destination-card.recommended-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card.recommended-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.destination-card.recommended-card .compare-img {
+    width: 100%;
+    height: 200px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.destination-card.recommended-card .compare-img:hover {
+    transform: scale(1.05);
+}
+
+.destination-card.recommended-card .destination-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.destination-card.recommended-card .destination-meta span {
+    color: #555;
+}
+
+.destination-card.recommended-card .destination-meta .destination-rating i {
+    color: #ffb400;
+}
+
+.destination-card.recommended-card .activities-container {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.destination-card.recommended-card .activity-tag {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 2px;
+}
+
+.trending-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trending-card h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #333;
+    
+}
+
+.image-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.destination-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.destination-description {
+    font-size: 0.9em;
+    color: #666;
+    margin: 10px 0;
+}
+
+.destination-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+    color: #444;
+}
+
+.destination-meta .destination-budget {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.destination-meta .destination-rating i {
+    color: gold;
+}
+
+.activities-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.activity-tag {
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.85em;
+    border-radius: 20px;
+    color: #555;
+   
+    
+}
+/* Trending card styling */
+.trending-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Adds space between elements within the card */
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Activities container within a trending card */
+.trending-card .activities-container {
+    display: block; /* Ensures each activity tag is on a new line */
+    margin-top: 10px;
+}
+
+/* Individual activity tags */
+.activity-tag {
+    display: block; /* Forces each tag to start on a new line */
+    background-color: #f0f0f0;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #333;
+    margin-bottom: 6px; /* Adds space between tags */
+}
 

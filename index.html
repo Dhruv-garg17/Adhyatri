@@ -52,7 +52,7 @@
       </div>
       <div class="survey-container">
 
-        <div class="survey-step">
+        <!-- <div class="survey-step">
           <h3>What type of traveler are you?</h3>
           <div class="options-grid">
             <div class="option-card"><i class="fas fa-hiking"></i><p>Adventure Seeker</p></div>
@@ -60,6 +60,43 @@
             <div class="option-card"><i class="fas fa-landmark"></i><p>Culture Explorer</p></div>
             <div class="option-card"><i class="fas fa-camera"></i><p>Photography Enthusiast</p></div>
             <div class="option-card"><i class="fas fa-utensils"></i><p>Foodie</p></div>
+          </div>
+        </div> -->
+
+
+        <div class="survey-step">
+          <h3>What's your preferred duration of stay?</h3>
+          <div class="options-grid">
+            <div class="option-card">
+              <input type="radio" id="duration-week" name="duration" value="week" />
+              <label for="duration-week">Week</label>
+            </div>
+            <div class="option-card">
+              <input type="radio" id="duration-weekend" name="duration" value="weekend" />
+              <label for="duration-weekend">Weekend</label>
+            </div>
+            <div class="option-card">
+              <input type="radio" id="duration-month" name="duration" value="month" />
+              <label for="duration-month">Month</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="survey-step">
+          <h3>What's your preferred climate?</h3>
+          <div class="options-grid">
+            <div class="option-card">
+              <input type="radio" id="climate-spring" name="climate" value="spring" />
+              <label for="climate-spring">Spring</label>
+            </div>
+            <div class="option-card">
+              <input type="radio" id="climate-summer" name="climate" value="summer" />
+              <label for="climate-summer">Summer</label>
+            </div>
+            <div class="option-card">
+              <input type="radio" id="climate-winter" name="climate" value="winter" />
+              <label for="climate-winter">Winter</label>
+            </div>
           </div>
         </div>
 
@@ -125,9 +162,9 @@
         <!-- Will be populated dynamically -->
       </div>
 
-      <div style="text-align: center; margin-top: 40px;">
+      <!-- <div style="text-align: center; margin-top: 40px;">
         <a href="#" class="btn">View All Recommendations</a>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -210,7 +247,8 @@
       </div>
     </div>
   </footer>
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script type="module">
     import { auth } from './JS/firebase.js';
     import { initAuthGuard } from './JS/auth.js';
