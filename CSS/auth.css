@@ -1,0 +1,192 @@
+/* Auth Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 40px 0;
+}
+
+.auth-card {
+    background: white;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    position: relative;
+}
+
+.auth-card h1 {
+    margin-bottom: 10px;
+    color: #1a2a6c;
+}
+
+.auth-card p {
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Password Strength Indicator */
+.password-strength {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: #f8f9fa;
+}
+
+.password-strength.very-weak {
+    color: #e74c3c;
+    background: rgba(231, 76, 60, 0.1);
+}
+
+.password-strength.weak {
+    color: #e67e22;
+    background: rgba(230, 126, 34, 0.1);
+}
+
+.password-strength.medium {
+    color: #f1c40f;
+    background: rgba(241, 196, 15, 0.1);
+}
+
+.password-strength.strong {
+    color: #27ae60;
+    background: rgba(39, 174, 96, 0.1);
+}
+
+.password-strength.very-strong {
+    color: #16a085;
+    background: rgba(22, 160, 133, 0.1);
+}
+
+/* Password Match Indicator */
+.password-match {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.password-match.valid {
+    color: #27ae60;
+    background: rgba(39, 174, 96, 0.1);
+}
+
+.password-match.invalid {
+    color: #e74c3c;
+    background: rgba(231, 76, 60, 0.1);
+}
+
+/* Error and Success Messages */
+.error-message,
+.success-message {
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+.error-message {
+    color: #c0392b;
+    background: #fadbd8;
+    border: 1px solid #e74c3c;
+}
+
+.success-message {
+    color: #27ae60;
+    background: #d4efdf;
+    border: 1px solid #2ecc71;
+}
+
+/* Auth Switch Link */
+.auth-switch {
+    margin-top: 20px;
+    color: #7f8c8d;
+}
+
+.auth-switch a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}
+
+/* Button in Auth */
+.auth-card .button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #1a2a6c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-card .button:hover {
+    background: #2a3a7c;
+}
+
+.auth-card .button:disabled {
+    background: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/* Forgot password link */
+.forgot-password {
+    background: none;
+    border: none;
+    color: #3498db;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .auth-container {
+        padding: 20px;
+    }
+    
+    .auth-card {
+        padding: 20px;
+    }
+}

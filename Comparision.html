@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Destinations | Adhyatri</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Comparision.css">
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="Reviewpage.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="Homepage.html" class="logo">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Adhyatri
+                </a>
+                <ul class="nav-links">
+                    <li><a href="Homepage.html">Home</a></li>
+                    <!-- <li><a href="recommendation.html">Recommendations</a></li> -->
+                    <li><a href="Reviewpage.html">Review</a></li>
+                    <li><a href="Plantrip.html">Travel Plan</a></li>
+                    <li><a href="Comparision.html">Compare</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    
+                </ul>
+                <div class="user-actions">
+                    <!-- Will be populated by navbar.js -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="comparison-tool">
+            <h1>Compare Destinations</h1>
+            <p>Select 2-3 destinations to compare their features, reviews, and ratings</p>
+            
+            <div class="destination-selectors">
+                <div class="destination-selector">
+                    <label for="destination-1">Destination 1:</label>
+                    <select id="destination-1">
+                        <option value="">Select a destination</option>
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+                </div>
+                <div class="destination-selector">
+                    <label for="destination-2">Destination 2:</label>
+                    <select id="destination-2">
+                        <option value="">Select a destination</option>
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+                </div>
+                <div class="destination-selector">
+                    <label for="destination-3">Destination 3:</label>
+                    <select id="destination-3">
+                        <option value="">Select a destination</option>
+                        <!-- Options will be populated by JavaScript -->
+                    </select>
+                </div>
+            </div>
+            
+            <button id="compare-btn" class="btn">Compare Now</button>
+            
+            <div id="comparison-results" class="hidden">
+                <div class="results-header">
+                    <div class="feature-category">Features</div>
+                    <div id="destination-headers" class="destination-columns"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-info-circle"></i> Basic Information</h2>
+                    <div id="basic-info" class="comparison-row"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-dollar-sign"></i> Cost Comparison</h2>
+                    <div id="cost-comparison" class="comparison-row"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-star"></i> Ratings & Reviews</h2>
+                    <div id="ratings-comparison" class="comparison-row"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-hiking"></i> Activities</h2>
+                    <div id="activities-comparison" class="comparison-row"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-heart"></i> Interests</h2>
+                    <div id="interests-comparison" class="comparison-row"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-clock"></i> Duration</h2>
+                    <div id="duration-comparison" class="comparison-row"></div>
+                </div>
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-calendar-alt"></i> Best Time to Visit</h2>
+                    <div id="season-comparison" class="comparison-row"></div>
+                </div>
+                
+                
+                
+                <div class="comparison-section">
+                    <h2><i class="fas fa-comments"></i> Recent Reviews</h2>
+                    <div id="reviews-comparison" class="reviews-container"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Adhyatri</h3>
+                    <p>Your personalized destination recommendation platform helping you discover the perfect places to visit based on your unique preferences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Comparision.html">Destinations</a></li>
+                        <li><a href="#">Recommendations</a></li>
+                        <li><a href="Reviewpage.html">Review</a></li>
+                        <li><a href="Plantrip.html">Travel Plan</a></li>
+                        <li><a href="#">About Us</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get travel inspiration and exclusive deals in your inbox.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Adhyatri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { auth } from './JS/firebase.js';
+        import { initAuthGuard } from './JS/auth.js';
+        import { initializeNavbar } from './JS/navbar.js';
+        
+        // Initialize auth guard for protected pages
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            initAuthGuard();
+            console.log("initAuthGuard()")
+            
+            initializeNavbar();
+            console.log("initializeNavbar()")
+        });
+    </script>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth-compat.js"></script>
+    <script type="module" src="Comparision.js"></script>
+</body>
+</html>

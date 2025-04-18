@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile - Adhyatri</title>
+    <link rel="stylesheet" href="Homepage.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="Homepage.html" class="logo">
+                    <i class="fas fa-map-marked-alt"></i>
+                    Adhyatri
+                </a>
+                <ul class="nav-links">
+                    <li><a href="Homepage.html">Home</a></li>
+                    <!-- <li><a href="recommendation.html">Recommendations</a></li> -->
+                    <li><a href="Reviewpage.html">Review</a></li>
+                    <li><a href="Plantrip.html">Travel Plan</a></li>
+                    <li><a href="Comparision.html">Compare</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    
+                </ul>
+                <div class="user-actions">
+                    <!-- Will be populated by navbar.js -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <h1>Update Your Travel Profile</h1>
+            
+            <form id="travelForm">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Travel Style</label>
+                    <div class="radio-group">
+                        <label class="radio-option">
+                            <input type="radio" name="travelStyle" value="solo"> Solo
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="travelStyle" value="couple"> Couple
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="travelStyle" value="friends"> Friends
+                        </label>
+                        <label class="radio-option">
+                            <input type="radio" name="travelStyle" value="family"> Family
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="budget">Budget Range (per person)</label>
+                    <select id="budget" name="budget" required>
+                        <option value="">Select budget range</option>
+                        <option value="economy">Economy ($500 - $1,500)</option>
+                        <option value="mid-range">Mid-range ($1,500 - $3,500)</option>
+                        <option value="luxury">Luxury ($3,500 - $7,500)</option>
+                        <option value="premium">Premium ($7,500+)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>Interests (Select up to 5)</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="adventure"> Adventure
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="food"> Food & Dining
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="culture"> Culture & History
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="nature"> Nature & Wildlife
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="beach"> Beach & Relaxation
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="shopping"> Shopping
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="wellness"> Wellness & Spa
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="interests" value="photography"> Photography
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label>Activity Preferences</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="hiking"> Hiking/Trekking
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="scuba"> Scuba Diving
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="sightseeing"> Sightseeing
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="cooking"> Cooking Classes
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="wildlife"> Wildlife Safaris
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="cruises"> Cruises
+                        </label>
+                        <label class="checkbox-option">
+                            <input type="checkbox" name="activities" value="festivals"> Local Festivals
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="climate">Preferred Climate/Season</label>
+                    <select id="climate" name="climate" required>
+                        <option value="">Select preferred climate</option>
+                        <option value="summer">Summer (Warm & Sunny)</option>
+                        <option value="winter">Winter (Snow & Cold)</option>
+                        <option value="spring">Spring (Mild & Blooming)</option>
+                        <option value="autumn">Autumn (Cool & Colorful)</option>
+                        <option value="tropical">Tropical (Warm & Humid)</option>
+                        <option value="dry">Dry (Arid & Desert)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="duration">Typical Travel Duration</label>
+                    <select id="duration" name="duration" required>
+                        <option value="">Select typical duration</option>
+                        <option value="weekend">Weekend Getaway (2-3 days)</option>
+                        <option value="week">Week-long (5-7 days)</option>
+                        <option value="two-weeks">Two Weeks (10-14 days)</option>
+                        <option value="month">Month-long (25-30 days)</option>
+                        <option value="extended">Extended Stay (1+ months)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="specialRequests">Special Requests/Notes</label>
+                    <textarea id="specialRequests" name="specialRequests" rows="3"></textarea>
+                </div>
+                
+                <div class="form-buttons">
+                    <button type="submit" class="button">Save Profile</button>
+                    <button type="button" id="cancelEdit" class="button secondary">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Adhyatri</h3>
+                    <p>Your personalized destination recommendation platform helping you discover the perfect places to visit based on your unique preferences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Comparision.html">Destinations</a></li>
+                        <li><a href="#">Recommendations</a></li>
+                        <li><a href="Reviewpage.html">Review</a></li>
+                        <li><a href="Plantrip.html">Travel Plan</a></li>
+                        <li><a href="#">About Us</a></li>
+                        
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get travel inspiration and exclusive deals in your inbox.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Adhyatri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { auth } from './JS/firebase.js';
+        import { initAuthGuard } from './JS/auth.js';
+        import { initializeNavbar } from './JS/navbar.js';
+        
+        // Initialize auth guard for protected pages
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            initAuthGuard();
+            console.log("initAuthGuard()")
+            
+            initializeNavbar();
+            console.log("initializeNavbar()")
+        });
+    </script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+    
+
+    <script type="module" src="JS/firebase.js"></script>
+    <script type="module" src="JS/form.js"></script>
+</body>
+</html>
