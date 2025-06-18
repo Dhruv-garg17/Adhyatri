@@ -271,7 +271,6 @@ function filterDestinations() {
 }
 
 // Render destinations in grid with proper image and activity handling
-// Render destinations in grid with proper image and activity handling
 function renderDestinations(dests) {
     destinationGrid.innerHTML = ''; // Clear previous content
 

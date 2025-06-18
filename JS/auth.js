@@ -26,7 +26,6 @@ export function initAuthGuard() {
     });
 }
 
-// ✅ New: Create User Function
 export function createUser(email, password, displayName) {
     return createUserWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
